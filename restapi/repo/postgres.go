@@ -63,3 +63,7 @@ func InitializePostgres(url string, port int, user string, password string, dbna
 		FOREIGN KEY(order_item_id) REFERENCES order_item(id)
 	)`)	
 }
+
+func GetOrders() {
+	
+}
