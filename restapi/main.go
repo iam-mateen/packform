@@ -7,11 +7,11 @@ import (
 )
 
 func main() {
-	var url = "postgres://xmrsrssh:Lao1zyOdww1DBddgPzAyu26zLEujo7-F@heffalump.db.elephantsql.com/xmrsrssh"
+	var url = "localhost"
 	var port = 5432
 	var user = "admin"
-	var password = "Lao1zyOdww1DBddgPzAyu26zLEujo7-F"
-	var dbname = "xmrsrssh"
+	var password = "admin123-F"
+	var dbname = "packform"
 
 	repo.InitializePostgres(url, port, user,password, dbname)
 
